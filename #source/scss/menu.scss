@@ -35,14 +35,9 @@
 			display: flex;
 		}
 }
-			
-	
-
 .logo__link {
 	
 }
-
-
 @media (max-width: 961px) {
 	.header__menu  {
 		display: none;
@@ -89,7 +84,6 @@
 .menu__list--mob {
 	display: flex;
 	flex-direction: column;
-
 	align-items: center;
 	margin: 197px 0 114px 0;
 
