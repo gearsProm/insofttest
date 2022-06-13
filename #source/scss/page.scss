@@ -15,7 +15,11 @@
 	color: #ffffff;
 	@media (max-width: 550px) {
 		& {
-			display: block;
+			display: flex;
+			flex-direction: column;
+			&:nth-child(2){
+				flex-direction: column-reverse;
+			}
 		}
 }
 	// .page-row__colum-bg
@@ -28,13 +32,18 @@
 	}
 	&__colum-img {
 		background-image: url('/images/home/home_sity.jpeg');
-		min-height: 100px;
+		min-height: 360px;
 		min-width: 100px;
 		grid-column-start: 2;
 		grid-column-end: 3;
 		z-index: 10;
 		position: relative;
 		justify-content:center;
+		@media (max-width: 550px) {
+			& {
+				margin-left: 42px;
+			}
+	}
 	}
 	// .page-row__contecst
 
@@ -99,7 +108,7 @@
 	font-size: 106px;
 	font-weight: 900;
 	position: absolute;
-    top: 50%;
+    top: 35%;
     left: -150px;
 }
 .page-row {
@@ -108,7 +117,7 @@
 
 	&__colum-img2 {
 		background-image: url('/images/home/image43.jpeg');
-		min-height: 100px;
+		min-height: 293px;
 		min-width: 100px;
 		grid-column-start: 1;
 		grid-column-end: 2;
