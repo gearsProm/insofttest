@@ -366,6 +366,9 @@ body {
       -ms-flex-align: end;
           align-items: flex-end;
   margin: 40px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .button-block-grey__text--g {
   display: inline-block;
